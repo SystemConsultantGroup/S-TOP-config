@@ -14,5 +14,3 @@ patches:
 images:
 - name: jcy0308/stop
   newTag: c2d3e03baab65473225defcd912b94473842b6f0
-- name: registry.scg.skku.ac.kr/cs-grad-thesis-be
-  newTag: prod0
