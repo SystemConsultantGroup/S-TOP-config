@@ -4,6 +4,7 @@ namespace: s-top
 resources:
 - namespace.yaml
 - secret.yaml
+bases:
 - ../../../base/be
 
 patches:
