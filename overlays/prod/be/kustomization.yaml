@@ -4,7 +4,6 @@ namespace: s-top
 resources:
 - namespace.yaml
 - secret.yaml
-bases:
 - ../../../base/be
 
 patches:
@@ -14,4 +13,4 @@ patches:
     name: Ingress
 images:
 - name: jcy0308/stop
-  newTag: c2d3e03baab65473225defcd912b94473842b6f0
+  newTag: 631dfca64bf9f70ffda587a00416388b430d4e5e
