@@ -13,4 +13,4 @@ patches:
     name: Ingress
 images:
 - name: jcy0308/stop
-  newTag: c00abdbc49f4d72c0c7f6adad202e3046a677ddc
+  newTag: 77d40c648b510d0fe2ab95e36424b343681607e6
