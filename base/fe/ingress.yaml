@@ -19,3 +19,5 @@ spec:
                 name: fe-service
                 port:
                   number: 80
+            path: /
+            pathType: Prefix
