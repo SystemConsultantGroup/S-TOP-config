@@ -4,9 +4,8 @@ namespace: s-top
 resources:
 - namespace.yaml
 - secret.yaml
-
-bases:
 - ../../../base/be
+
 
 patches:
 - path: domain.json
@@ -15,4 +14,4 @@ patches:
     name: be-ingress
 images:
 - name: jcy0308/stop
-  newTag: latest
+  newTag: 4e4dba6faa4e357574eb114ead054b055c7596d5
