@@ -1,8 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 namespace: s-top
-bases:
-- ../../../base/fe
 patches:
 - path: domain.json
   target:
@@ -10,4 +8,6 @@ patches:
     name: fe-ingress
 images:
 - name: scgskku/stop-fe
-  newTag: 0aadcac7ea1322879a42e066b3fdf1f77f322bd3
+  newTag: 5c782c659c629a266fd93a40db62bbf91f0e9f5d
+resources:
+- ../../../base/fe
