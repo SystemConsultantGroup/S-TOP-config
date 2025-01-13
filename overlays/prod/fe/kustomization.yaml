@@ -3,7 +3,6 @@ kind: Kustomization
 namespace: s-top
 resources:
 - ../../../base/fe
-- secret.yaml
 patches:
 - path: domain.json
   target:
@@ -11,6 +10,6 @@ patches:
     name: fe-ingress
 images:
 - name: scgskku/stop-fe
-  newTag: 5c782c659c629a266fd93a40db62bbf91f0e9f5d
+  newTag: 9a082ff46ecaae33d44e41b5f1c2a22c94479324
 resources:
 - ../../../base/fe
