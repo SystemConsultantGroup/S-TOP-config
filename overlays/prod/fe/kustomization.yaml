@@ -3,6 +3,8 @@ kind: Kustomization
 namespace: s-top
 resources:
 - ../../../base/fe
+- secret.yaml
+
 patches:
 - path: domain.json
   target:
