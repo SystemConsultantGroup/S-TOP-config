@@ -13,5 +13,3 @@ patches:
 images:
 - name: scgskku/stop-fe
   newTag: 9a082ff46ecaae33d44e41b5f1c2a22c94479324
-resources:
-- ../../../base/fe
