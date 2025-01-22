@@ -11,4 +11,4 @@ patches:
     name: fe-ingress
 images:
 - name: scgskku/stop-fe
-  newTag: 80265e1c32f85593da8252ed5199e47de15ccf19
+  newTag: 461e98ff582ff67217dab1f1e669dbb1f82df1a5
