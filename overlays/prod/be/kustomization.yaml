@@ -13,5 +13,6 @@ patches:
     kind: Ingress
     name: be-ingress
 images:
-- name: jcy0308/stop-be-prod
+- name: jcy0308/stop-be
+  newName: jcy0308/stop-be-prod
   newTag: 386941e3e2c79803ef4de41746aeb227e2215cb1
