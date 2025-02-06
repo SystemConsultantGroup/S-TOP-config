@@ -1,12 +1,27 @@
 [
     {
-        "op" : "replace",
+        "op": "replace",
         "path": "/spec/rules/0/host",
         "value": "s-top.cs.skku.edu"
     },
     {
-        "op" : "replace",
+        "op": "replace",
         "path": "/spec/tls/0/hosts/0",
         "value": "s-top.cs.skku.edu"
+    },
+    {
+        "op": "add",
+        "path": "/metadata/annotations/nginx.ingress.kubernetes.io~1auth-type",
+        "value": "basic"
+    },
+    {
+        "op": "add",
+        "path": "/metadata/annotations/nginx.ingress.kubernetes.io~1auth-secret",
+        "value": "temporal-auth"
+    },
+    {
+        "op": "add",
+        "path": "/metadata/annotations/nginx.ingress.kubernetes.io~1auth-realm",
+        "value": "Authentication Required"
     }
 ]
