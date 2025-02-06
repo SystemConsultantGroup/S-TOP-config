@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-namespace: s-top-prod
+namespace: s-top-qa
 resources:
 - namespace.yaml
 - secret.yaml
@@ -13,5 +13,5 @@ patches:
     kind: Ingress
     name: be-ingress
 images:
-- name: jcy0308/stop-be-prod
-  newTag: 54e51ca41c90903bdc3ff0479a5cebff0eb60ea5
+- name: jcy0308/stop-be-qa
+  newTag: 1c07f2ca2d36e8f39c1fc7045bc2a2f09a77738c
