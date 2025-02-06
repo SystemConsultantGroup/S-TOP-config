@@ -14,4 +14,4 @@ patches:
     name: be-ingress
 images:
 - name: jcy0308/stop
-  newTag: aaaa19de3d0b618981102fb4b2ea15c96a51bcfa
+  newTag: bccca7e44cc804c86d8fe64367ad402613fb9e91
