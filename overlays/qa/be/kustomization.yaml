@@ -16,3 +16,5 @@ images:
 - name: jcy0308/stop-be
   newName: jcy0308/stop-be-qa
   newTag: 7330825db2a67b3f5f8c9067efd9c77c401213d0
+- name: jcy0308/stop-be-qa
+  newTag: a4cc0ca676f9b2e05392cd4248499f9b3de08ccc
