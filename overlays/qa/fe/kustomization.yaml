@@ -11,6 +11,6 @@ images:
   newName: scgskku/stop-fe-qa
   newTag: 9567238235f3ddf2bcc2eaa063f6974117318b43
 - name: scgskku/stop-fe-qa
-  newTag: 2358de048c315f74ef118c141786884a488f6ee3
+  newTag: 32069c196892fba7155785c7b089869210804a40
 resources:
 - ../../../base/fe
