@@ -14,4 +14,4 @@ images:
   newName: scgskku/stop-fe-prod
   newTag: df69d72b003398a55dbc3817aee1b5e8f5c04d43
 - name: scgskku/stop-fe-prod
-  newTag: d3beba6e42ea184410e32f1f9b2c7315d306cbf9-22749302575-2
+  newTag: 441ea4cd7b3a970cfe9ec462172b9b14265f917f-22798508393-1
