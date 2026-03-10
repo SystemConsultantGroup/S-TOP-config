@@ -17,4 +17,4 @@ images:
   newName: jcy0308/stop-be-prod
   newTag: 386941e3e2c79803ef4de41746aeb227e2215cb1
 - name: jcy0308/stop-be-prod
-  newTag: 6bb9227df1fb28117d9d8b3d41cce2a5b33c4652
+  newTag: c7f5afc3df5db08b94ff5cdfcd9091d39409b73e
